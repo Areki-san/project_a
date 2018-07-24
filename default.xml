@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="github"
+           fetch=".."
+           review="review.lineageos.org" />
+
+  <remote  name="private"
+           fetch="ssh://git@github.com" />
+
+  <!-- <remote  name="aosp"
+           fetch="https://android.googlesource.com"
+           review="android-review.googlesource.com"
+           revision="refs/tags/android-7.1.2_r36" />
+
+  <default revision="refs/heads/cm-14.1"
+           remote="github"
+           sync-c="true"
+           sync-j="4" /> -->
+
+
+  <!-- AOSP Projects -->
+  
+  <!-- Xiaomi Redmi 4X specific code -->
+  <project path="device/xiaomi/santoni" name="Nikesh001/android_device_xiaomi_santoni" remote="github" revision="refs/heads/cm-14.1" />
+  
+  <project path="kernel/xiaomi/santoni" name="MiCode/Xiaomi_Kernel_OpenSource" remote="github" revision="refs/heads/santoni-n-oss" />
+  
+  <project path="vendor/xiaomi" name="Nikesh001/android_vendor_xiaomi_santoni" remote="github" revision="refs/heads/cm-14.1" />
+  
+</manifest>
