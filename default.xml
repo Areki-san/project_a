@@ -426,7 +426,7 @@
   <project path="packages/screensavers/Basic" name="LineageOS/android_packages_screensavers_Basic" groups="pdk-fs" />
   <project path="packages/screensavers/PhotoTable" name="LineageOS/android_packages_screensavers_PhotoTable" groups="pdk-fs" />
   <project path="packages/screensavers/WebView" name="LineageOS/android_packages_screensavers_WebView" groups="pdk-fs" />
-  <project path="packages/services/Car" name="LineageOS/android_packages_services_Car" groups="adp8064,pdk-cw-fs,pdk-fs" />
+  <!--<project path="packages/services/Car" name="LineageOS/android_packages_services_Car" groups="adp8064,pdk-cw-fs,pdk-fs" />-->
   <project path="packages/services/Mms" name="LineageOS/android_packages_services_Mms" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/services/Telecomm" name="LineageOS/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/services/Telephony" name="LineageOS/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" />
@@ -513,10 +513,12 @@
   <!-- vedroidOS platform manifest -->
   <!-- Xiaomi Redmi 4X specific code -->
   <project path="device/xiaomi/santoni" name="Nikesh001/android_device_xiaomi_santoni" remote="github" revision="refs/heads/cm-14.1" />
-
-  <project path="kernel/xiaomi/santoni" name="Areki-san/xiaomi_kernel" remote="github" revision="refs/heads/santoni-n7.1" />
-  <project path="kernel/xiaomi/msm8940" name="nichcream/xiaomi_kernel_msm8940" remote="github" revision="refs/heads/n7.1" />
-
+  <project path="kernel/xiaomi/msm8937" name="Nikesh001/android_kernel_xiaomi_msm8937" remote="github" revision="refs/heads/lineage-15.1" />
   <project path="vendor/xiaomi" name="Nikesh001/android_vendor_xiaomi_santoni" remote="github" revision="refs/heads/cm-14.1" />
+
+  <!--<project path="kernel/xiaomi/santoni" name="Areki-san/xiaomi_kernel" remote="github" revision="refs/heads/santoni-n7.1" />
+  <project path="kernel/xiaomi/msm8940" name="nichcream/xiaomi_kernel_msm8940" remote="github" revision="refs/heads/n7.1" />-->
+
+  
 
 </manifest>
